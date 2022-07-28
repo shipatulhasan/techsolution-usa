@@ -66,9 +66,6 @@ body{
     width: 75%;
 }
 /* Register btn */
-.register .btn:hover{
-    background-color: #fff;
-}
 /* Testimonial carousel */
 #testimonialCarousel .carousel-control-prev-icon {
     background-image: url(../images/kuba_arrow_button_set_1.svg);
@@ -76,11 +73,20 @@ body{
 #testimonialCarousel .carousel-control-next-icon {
     background-image: url(../images/kuba_arrow_button_set_2.png);
 }
+#testimonialCarousel2 .carousel-control-prev-icon {
+    background-image: url(../images/kuba_arrow_button_set_1.svg);
+}
+#testimonialCarousel2 .carousel-control-next-icon {
+    background-image: url(../images/kuba_arrow_button_set_2.png);
+}
 #testimonialCarousel .carousel-control-prev {
     left: -80px;
 }
 #testimonialCarousel .carousel-control-next {
     right: -80px;
+}
+#testimonialCarousel2 .carousel-item .row{
+    height: 40vh;
 }
 /* Frequently asked question */
 .accordion-item{
@@ -101,6 +107,9 @@ body{
     background-image: var(--bs-accordion-btn-icon);
 }
 /* social icon */
+.social{
+    width: 20%;
+}
 .social-icon {
     width: 2em;
     line-height: 2em;
@@ -126,11 +135,14 @@ body{
         width: 100%;
         font-size: .8rem;
     }
-    #testimonialCarousel .carousel-control-prev {
-        left: -15px;
+    .social{
+        width: 70%;
     }
-    #testimonialCarousel .carousel-control-next {
-        right: -15px;
+    #testimonialCarousel2 .carousel-control-prev {
+        left: -12px;
+    }
+    #testimonialCarousel2 .carousel-control-next {
+        right: -12px;
     }
 
 }
@@ -140,5 +152,14 @@ body{
     }
     .slider .title{
         font-size: 3rem;
+    }
+    .social{
+        width: 25%;
+    }
+    #testimonialCarousel .carousel-control-prev {
+        left: -50px;
+    }
+    #testimonialCarousel .carousel-control-next {
+        right: -50px;
     }
 }

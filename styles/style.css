@@ -71,11 +71,11 @@ body{
     background-image: url(../images/kuba_arrow_button_set_2.png);
 }
 
-.testimonial .carousel-control-prev {
-    left: -80px;
+#testimonialCarousel .carousel-control-prev {
+    left: -7.5%;
 }
-.testimonial .carousel-control-next {
-    right: -80px;
+#testimonialCarousel .carousel-control-next {
+    right: -7.5%;
 }
 /* mobile carousal */
 #testimonialCarousel2 .carousel-item .row{

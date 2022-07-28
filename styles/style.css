@@ -19,9 +19,6 @@ body{
 .btn{
     letter-spacing: 1px;
 }
-.headline{
-    width: 50%;
-}
 .light-blue{
     background: #F4FAFD;
 }
@@ -91,10 +88,6 @@ body{
         font-size: .8rem;
     }
 
-    .headline{
-        width: 100%;
-    }
-
 }
 @media (min-width: 768px) and (max-width: 1199.98px) { 
     .carousel-item img {
@@ -102,8 +95,5 @@ body{
     }
     .slide .title{
         font-size: 3rem;
-    }
-    .headline{
-        width: 60%;
     }
 }

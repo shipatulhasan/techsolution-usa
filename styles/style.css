@@ -16,6 +16,12 @@ body{
 .btn:focus{
     box-shadow: none;
 }
+.btn{
+    letter-spacing: 1px;
+}
+.headline{
+    width: 50%;
+}
 /************
      Navigation pesudo style
 ***************/
@@ -35,14 +41,14 @@ body{
     width:10%;
     transition: width .5s linear;
 }
-.carousel-item{
-    position: relative;
-}
+
 .carousel-item img {
     height: 80vh;
     object-fit: cover;
 }
-
+.slide .title{
+    font-size: 4rem;
+}
 .slider .overlay::before{
     content: " ";
     position: absolute;
@@ -53,10 +59,6 @@ body{
     background: rgba(0, 0, 0, 0.3);
 
 }
-.carousel-caption {
-    top: 0;
-    bottom: 0;
-}
 .carousel-caption p{
     width: 75%;
 }
@@ -64,11 +66,33 @@ body{
 
 /* Responsive css */
 @media (max-width: 766.5px){
-  
+    .carousel-item img {
+        height: 400px;
+    }
+    .slide .title {
+        font-size: 1.5rem;
+    }
+    .slide .btn {
+        font-size: .8rem;
+    }
     .carousel-caption p{
         width: 100%;
+        font-size: .8rem;
     }
+
+    .headline{
+        width: 100%;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 1199.98px) { 
-
+    .carousel-item img {
+        height: 450px;
+    }
+    .slide .title{
+        font-size: 3rem;
+    }
+    .headline{
+        width: 60%;
+    }
 }

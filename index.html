@@ -24,10 +24,11 @@
     <header>
         <nav class="navbar d-flex nav navbar-expand-lg text-capitalize py-4">
             <div class="container-fluid container-md ">
-                <a class="navbar-brand fs-3 fw-bold" href="/">Tech.Solution</a>
+                <a class="navbar-brand text-capitalize fw-bold" href="/">Tech<span
+                        class="text-warning fs-2 ">.Solution</span></a>
                 <!-- md button -->
                 <a class="text-decoration-none ms-auto me-2 d-none d-md-block d-lg-none" href="#">
-                    <button type="button" class="btn btn-outline-primary px-4 py-1">Register
+                    <button type="button" class="btn btn-outline-warning px-4 py-1">Register
                     </button>
                 </a>
                 <!-- End -->
@@ -68,7 +69,80 @@
 
 
         <!-- Slider part -->
-        <!-------------
+        <section class="slider container">
+            <div id="mycarousel" class="carousel slide " data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#mycarousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <div class="overlay">
+                            <img src="./images/cover/cover-1.png" class=" w-100 img-fluid" alt="...">
+                            <div
+                                class="carousel-caption mb-4 mb-md-0 d-flex flex-column justify-content-center align-items-center mx-auto z-index-1">
+                                <h1 class="title display-3 fw-bold pb-2">Start learning from <span
+                                        class="text-warning">best institutions</span></h1>
+                                <p class="lh-sm fs-5 mx-auto">Enjoy our great selection of IT courses. Choose from more
+                                    than 25K online video courses and become an IT expert now!</p>
+
+                                <a href="#" class="btn btn-primary text-white text-uppercase fw-bold mt-2 px-3 py-2">
+                                    Get Started
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="overlay">
+                            <img src="./images/cover/cover-3.jpg" class=" w-100 img-fluid" alt="...">
+                            <div
+                                class="carousel-caption mb-4 mb-md-0 d-flex flex-column justify-content-center align-items-center mx-auto z-index-1">
+                                <h1 class="title display-3 fw-bold pb-2">One-on-one <span class="text-warning">live
+                                        mentorship</span></h1>
+                                <p class="lh-sm fs-5 mx-auto">Debug with the help of an expert.
+                                    Personalize your learning experience.
+                                    Get answers to complex problems.</p>
+
+                                <a href="#" class="btn btn-primary text-white text-uppercase fw-bold mt-2 px-3 py-2">
+                                    Get Started
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="overlay">
+                            <img src="./images/cover/cover.jpg" class=" w-100 img-fluid" alt="...">
+                            <div
+                                class="carousel-caption mb-4 mb-md-0 d-flex flex-column justify-content-center align-items-center mx-auto z-index-1">
+                                <h1 class="title display-3 fw-bold pb-2">Learn something<span
+                                        class="text-warning"> new every day</span></h1>
+                                <p class="lh-sm fs-5 mx-auto">Start, switch, or advance your career with Tech solution</p>
+
+                                <a href="#" class="btn btn-primary text-white text-uppercase fw-bold mt-2 px-3 py-2">
+                                    Get Started
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
     </header>
 

@@ -5,21 +5,11 @@ Utilities
     margin: 0;
     padding: 0;
 }
-html, body{
-    width: 100%;
-    overflow-x: hidden!important;
-}
 .spacer{
     padding: 5rem 0 1rem;
 }
 .btn:focus{
     box-shadow: none;
-}
-.btn {
-   
-    letter-spacing: 150%px;
-    padding: 8px 30px;
-
 }
 /************
      Navigation design 
@@ -39,18 +29,17 @@ html, body{
   
 .carousel-indicators .active{
     width:10%;
+    transition: width .5s linear;
 }
 .carousel-item{
-    /* height: 32rem; */
     position: relative;
 }
-.carousel-item .row {
-    height: 100vh;
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
 }
-.title{
-    font-size: 3.5rem;
-}
-/* .slider .overlay::before{
+
+.slider .overlay::before{
     content: " ";
     position: absolute;
     top: 0;
@@ -58,30 +47,35 @@ html, body{
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.3);
-    background-blend-mode: multiply;
 
 }
 .carousel-caption {
     right: 15%;
-    bottom: 6rem;
+    top: 0;
+    bottom: 0;
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
-} */
+}
 
 
 /* Responsive css */
 @media (max-width: 766.5px){
 
-    .carousel-caption {
-      
-        bottom: 3rem;
-        
+    .carousel-item img {
+        height: 400px;
+    }
+    .spacer {
+        padding: 2rem 0 1rem;
     }
 }
 @media (min-width: 768px) and (max-width: 1199.98px) { 
-
-
+    .carousel-item img {
+        height: 450px;
+    }
+    .spacer {
+        padding: 2rem 0 1rem;
+    }
 }

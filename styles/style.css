@@ -22,6 +22,9 @@ body{
 .headline{
     width: 50%;
 }
+.light-blue{
+    background: #F4FAFD;
+}
 /************
      Navigation pesudo style
 ***************/

@@ -64,24 +64,20 @@ body{
 }
 /* Register btn */
 /* Testimonial carousel */
-#testimonialCarousel .carousel-control-prev-icon {
+.testimonial .carousel-control-prev-icon {
     background-image: url(../images/kuba_arrow_button_set_1.svg);
 }
-#testimonialCarousel .carousel-control-next-icon {
+.testimonial .carousel-control-next-icon {
     background-image: url(../images/kuba_arrow_button_set_2.png);
 }
-#testimonialCarousel2 .carousel-control-prev-icon {
-    background-image: url(../images/kuba_arrow_button_set_1.svg);
-}
-#testimonialCarousel2 .carousel-control-next-icon {
-    background-image: url(../images/kuba_arrow_button_set_2.png);
-}
-#testimonialCarousel .carousel-control-prev {
+
+.testimonial .carousel-control-prev {
     left: -80px;
 }
-#testimonialCarousel .carousel-control-next {
+.testimonial .carousel-control-next {
     right: -80px;
 }
+/* mobile carousal */
 #testimonialCarousel2 .carousel-item .row{
     height: 40vh;
 }
